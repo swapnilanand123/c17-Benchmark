@@ -66,6 +66,7 @@ gtkwave c17_tb.vcd
 ![image](https://github.com/swapnilanand123/c17-Benchmark/assets/143795450/0041c7fa-6656-4813-889b-66c4e6c170a2)
 
 Synthesis:
+```
 yosys
 
 yosys> read_liberty -lib ../../sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -77,7 +78,7 @@ yosys> synth -top c17enc
 abc -liberty ../../sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 show
-
+```
 
 ![image](https://github.com/swapnilanand123/c17-Benchmark/assets/143795450/ed877cef-3f42-4c2c-96f5-8bdaf8204261)
 
