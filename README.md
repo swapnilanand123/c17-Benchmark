@@ -16,12 +16,13 @@ Schematic:
 ![image](https://github.com/swapnilanand123/c17-Benchmark/assets/143795450/650463a8-f8e0-4b12-8c6d-3c7064010d17)
 
 Simulation: 
+```
 iverilog c17.v tb_c17.v
 
 ./a.out
 
 gtkwave c17_tb.vcd
-
+```
 
 ![image](https://github.com/swapnilanand123/c17-Benchmark/assets/143795450/30fa5430-61c7-46aa-aca5-9647a5f77b82)
 
