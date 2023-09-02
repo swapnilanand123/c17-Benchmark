@@ -35,11 +35,11 @@ yosys> read_liberty -lib ../../sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd
 yosys> read_verilog c17.v
 
 yosys> synth -top c17
-```
+
 abc -liberty ../../sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 show
-
+```
 ![image](https://github.com/swapnilanand123/c17-Benchmark/assets/143795450/737cdf46-defb-4c30-8f49-683f3f4bb6c4)
 
 
