@@ -56,12 +56,13 @@ Schematic:
 
 
 Waveform:
+```
 verilog c17enc.v tb_c17enc.v
 
 ./a.out
 
 gtkwave c17_tb.vcd
-
+```
 ![image](https://github.com/swapnilanand123/c17-Benchmark/assets/143795450/0041c7fa-6656-4813-889b-66c4e6c170a2)
 
 Synthesis:
