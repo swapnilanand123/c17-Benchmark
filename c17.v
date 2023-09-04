@@ -1,4 +1,3 @@
-// Code your design here
 // Verilog
 // c17
 // Ninputs 5
