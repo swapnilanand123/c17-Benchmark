@@ -1,7 +1,5 @@
 // Code your testbench here
 // or browse Examples
-// Code your testbench here
-// or browse Examples
 module c17enc_tb();
   reg  N1,N2,N3,N6,N7;
   reg keyinput26=1'b1, keyinput24=1'b1 ,keyinput25=1'b1;
