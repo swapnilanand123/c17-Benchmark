@@ -127,17 +127,17 @@ RTL to GDSII flow: -
 
 ```
 OPENROAD_FLOW$ source ORFS_bashrc
-OPENROAD_FLOW/OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/sky130hd/s298/config.mk
+OPENROAD_FLOW/OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/sky130hd/c17/config.mk
 ```
 ![Screenshot from 2023-09-02 18-59-24](https://github.com/swapnilanand123/c17-Benchmark/assets/143795450/9d93276c-9ac3-467b-88f2-39a3d2a42e49)
 
 ```
-OPENROAD_FLOW/OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/sky130hd/s298/config.mk gui_final
+OPENROAD_FLOW/OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/sky130hd/c17/config.mk gui_final
 ```
 ![Screenshot from 2023-09-02 19-01-12](https://github.com/swapnilanand123/c17-Benchmark/assets/143795450/937c03dc-efa4-4c35-94e6-52f3c2fa28c6)
 
 ```
-OPENROAD_FLOW/OpenROAD-flow-scripts/flow$ klayout -s ./results/sky130hd/s298/base/6_final.gds -l ./platforms/sky130hd/sky130hd.lyp
+OPENROAD_FLOW/OpenROAD-flow-scripts/flow$ klayout -s ./results/sky130hd/c17/base/6_final.gds -l ./platforms/sky130hd/sky130hd.lyp
 ```
 ![Screenshot from 2023-09-02 19-00-41](https://github.com/swapnilanand123/c17-Benchmark/assets/143795450/1ff9d953-f9d7-43bf-a987-de33e6c43154)
 
