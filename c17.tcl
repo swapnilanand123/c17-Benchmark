@@ -1,7 +1,7 @@
 # Define the module name and ports
 set module_name "c17"
 set ports {
-    {input N1}
+    {input N1} 
     {input N2}
     {input N3}
     {input N6}
